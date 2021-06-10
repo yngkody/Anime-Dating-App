@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBB9D0122671A9D7007BD777 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9D0112671A9D7007BD777 /* AppDelegate.swift */; };
+		FBB9D0142671A9D7007BD777 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9D0132671A9D7007BD777 /* SceneDelegate.swift */; };
+		FBB9D0162671A9D7007BD777 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9D0152671A9D7007BD777 /* ViewController.swift */; };
+		FBB9D0192671A9D7007BD777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB9D0172671A9D7007BD777 /* Main.storyboard */; };
+		FBB9D01B2671A9D9007BD777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB9D01A2671A9D9007BD777 /* Assets.xcassets */; };
+		FBB9D01E2671A9D9007BD777 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB9D01C2671A9D9007BD777 /* LaunchScreen.storyboard */; };
+		FBB9D0292671A9DA007BD777 /* Anime_Dating_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9D0282671A9DA007BD777 /* Anime_Dating_AppTests.swift */; };
+		FBB9D0342671A9DA007BD777 /* Anime_Dating_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9D0332671A9DA007BD777 /* Anime_Dating_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBB9D0252671A9DA007BD777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBB9D0062671A9D6007BD777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBB9D00D2671A9D7007BD777;
+			remoteInfo = "Anime Dating App";
+		};
+		FBB9D0302671A9DA007BD777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBB9D0062671A9D6007BD777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBB9D00D2671A9D7007BD777;
+			remoteInfo = "Anime Dating App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBB9D00E2671A9D7007BD777 /* Anime Dating App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anime Dating App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB9D0112671A9D7007BD777 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBB9D0132671A9D7007BD777 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FBB9D0152671A9D7007BD777 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBB9D0182671A9D7007BD777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBB9D01A2671A9D9007BD777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBB9D01D2671A9D9007BD777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBB9D01F2671A9D9007BD777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB9D0242671A9DA007BD777 /* Anime Dating AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anime Dating AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB9D0282671A9DA007BD777 /* Anime_Dating_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime_Dating_AppTests.swift; sourceTree = "<group>"; };
+		FBB9D02A2671A9DA007BD777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB9D02F2671A9DA007BD777 /* Anime Dating AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anime Dating AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB9D0332671A9DA007BD777 /* Anime_Dating_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime_Dating_AppUITests.swift; sourceTree = "<group>"; };
+		FBB9D0352671A9DA007BD777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBB9D00B2671A9D7007BD777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB9D0212671A9DA007BD777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB9D02C2671A9DA007BD777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBB9D0052671A9D6007BD777 = {
+			isa = PBXGroup;
+			children = (
+				FBB9D0102671A9D7007BD777 /* Anime Dating App */,
+				FBB9D0272671A9DA007BD777 /* Anime Dating AppTests */,
+				FBB9D0322671A9DA007BD777 /* Anime Dating AppUITests */,
+				FBB9D00F2671A9D7007BD777 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBB9D00F2671A9D7007BD777 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBB9D00E2671A9D7007BD777 /* Anime Dating App.app */,
+				FBB9D0242671A9DA007BD777 /* Anime Dating AppTests.xctest */,
+				FBB9D02F2671A9DA007BD777 /* Anime Dating AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBB9D0102671A9D7007BD777 /* Anime Dating App */ = {
+			isa = PBXGroup;
+			children = (
+				FBB9D0112671A9D7007BD777 /* AppDelegate.swift */,
+				FBB9D0132671A9D7007BD777 /* SceneDelegate.swift */,
+				FBB9D0152671A9D7007BD777 /* ViewController.swift */,
+				FBB9D0172671A9D7007BD777 /* Main.storyboard */,
+				FBB9D01A2671A9D9007BD777 /* Assets.xcassets */,
+				FBB9D01C2671A9D9007BD777 /* LaunchScreen.storyboard */,
+				FBB9D01F2671A9D9007BD777 /* Info.plist */,
+			);
+			path = "Anime Dating App";
+			sourceTree = "<group>";
+		};
+		FBB9D0272671A9DA007BD777 /* Anime Dating AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBB9D0282671A9DA007BD777 /* Anime_Dating_AppTests.swift */,
+				FBB9D02A2671A9DA007BD777 /* Info.plist */,
+			);
+			path = "Anime Dating AppTests";
+			sourceTree = "<group>";
+		};
+		FBB9D0322671A9DA007BD777 /* Anime Dating AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBB9D0332671A9DA007BD777 /* Anime_Dating_AppUITests.swift */,
+				FBB9D0352671A9DA007BD777 /* Info.plist */,
+			);
+			path = "Anime Dating AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBB9D00D2671A9D7007BD777 /* Anime Dating App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB9D0382671A9DA007BD777 /* Build configuration list for PBXNativeTarget "Anime Dating App" */;
+			buildPhases = (
+				FBB9D00A2671A9D7007BD777 /* Sources */,
+				FBB9D00B2671A9D7007BD777 /* Frameworks */,
+				FBB9D00C2671A9D7007BD777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Anime Dating App";
+			productName = "Anime Dating App";
+			productReference = FBB9D00E2671A9D7007BD777 /* Anime Dating App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBB9D0232671A9DA007BD777 /* Anime Dating AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB9D03B2671A9DA007BD777 /* Build configuration list for PBXNativeTarget "Anime Dating AppTests" */;
+			buildPhases = (
+				FBB9D0202671A9DA007BD777 /* Sources */,
+				FBB9D0212671A9DA007BD777 /* Frameworks */,
+				FBB9D0222671A9DA007BD777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBB9D0262671A9DA007BD777 /* PBXTargetDependency */,
+			);
+			name = "Anime Dating AppTests";
+			productName = "Anime Dating AppTests";
+			productReference = FBB9D0242671A9DA007BD777 /* Anime Dating AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBB9D02E2671A9DA007BD777 /* Anime Dating AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB9D03E2671A9DA007BD777 /* Build configuration list for PBXNativeTarget "Anime Dating AppUITests" */;
+			buildPhases = (
+				FBB9D02B2671A9DA007BD777 /* Sources */,
+				FBB9D02C2671A9DA007BD777 /* Frameworks */,
+				FBB9D02D2671A9DA007BD777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBB9D0312671A9DA007BD777 /* PBXTargetDependency */,
+			);
+			name = "Anime Dating AppUITests";
+			productName = "Anime Dating AppUITests";
+			productReference = FBB9D02F2671A9DA007BD777 /* Anime Dating AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBB9D0062671A9D6007BD777 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FBB9D00D2671A9D7007BD777 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					FBB9D0232671A9DA007BD777 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FBB9D00D2671A9D7007BD777;
+					};
+					FBB9D02E2671A9DA007BD777 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FBB9D00D2671A9D7007BD777;
+					};
+				};
+			};
+			buildConfigurationList = FBB9D0092671A9D6007BD777 /* Build configuration list for PBXProject "Anime Dating App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBB9D0052671A9D6007BD777;
+			productRefGroup = FBB9D00F2671A9D7007BD777 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBB9D00D2671A9D7007BD777 /* Anime Dating App */,
+				FBB9D0232671A9DA007BD777 /* Anime Dating AppTests */,
+				FBB9D02E2671A9DA007BD777 /* Anime Dating AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBB9D00C2671A9D7007BD777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB9D01E2671A9D9007BD777 /* LaunchScreen.storyboard in Resources */,
+				FBB9D01B2671A9D9007BD777 /* Assets.xcassets in Resources */,
+				FBB9D0192671A9D7007BD777 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB9D0222671A9DA007BD777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB9D02D2671A9DA007BD777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBB9D00A2671A9D7007BD777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB9D0162671A9D7007BD777 /* ViewController.swift in Sources */,
+				FBB9D0122671A9D7007BD777 /* AppDelegate.swift in Sources */,
+				FBB9D0142671A9D7007BD777 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB9D0202671A9DA007BD777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB9D0292671A9DA007BD777 /* Anime_Dating_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB9D02B2671A9DA007BD777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB9D0342671A9DA007BD777 /* Anime_Dating_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBB9D0262671A9DA007BD777 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBB9D00D2671A9D7007BD777 /* Anime Dating App */;
+			targetProxy = FBB9D0252671A9DA007BD777 /* PBXContainerItemProxy */;
+		};
+		FBB9D0312671A9DA007BD777 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBB9D00D2671A9D7007BD777 /* Anime Dating App */;
+			targetProxy = FBB9D0302671A9DA007BD777 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBB9D0172671A9D7007BD777 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBB9D0182671A9D7007BD777 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBB9D01C2671A9D9007BD777 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBB9D01D2671A9D9007BD777 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBB9D0362671A9DA007BD777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBB9D0372671A9DA007BD777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBB9D0392671A9DA007BD777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3HV3V77JS;
+				INFOPLIST_FILE = "Anime Dating App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bGenius.Anime-Dating-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBB9D03A2671A9DA007BD777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3HV3V77JS;
+				INFOPLIST_FILE = "Anime Dating App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bGenius.Anime-Dating-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBB9D03C2671A9DA007BD777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3HV3V77JS;
+				INFOPLIST_FILE = "Anime Dating AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bGenius.Anime-Dating-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anime Dating App.app/Anime Dating App";
+			};
+			name = Debug;
+		};
+		FBB9D03D2671A9DA007BD777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3HV3V77JS;
+				INFOPLIST_FILE = "Anime Dating AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bGenius.Anime-Dating-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anime Dating App.app/Anime Dating App";
+			};
+			name = Release;
+		};
+		FBB9D03F2671A9DA007BD777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3HV3V77JS;
+				INFOPLIST_FILE = "Anime Dating AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bGenius.Anime-Dating-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Anime Dating App";
+			};
+			name = Debug;
+		};
+		FBB9D0402671A9DA007BD777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3HV3V77JS;
+				INFOPLIST_FILE = "Anime Dating AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bGenius.Anime-Dating-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Anime Dating App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBB9D0092671A9D6007BD777 /* Build configuration list for PBXProject "Anime Dating App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB9D0362671A9DA007BD777 /* Debug */,
+				FBB9D0372671A9DA007BD777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBB9D0382671A9DA007BD777 /* Build configuration list for PBXNativeTarget "Anime Dating App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB9D0392671A9DA007BD777 /* Debug */,
+				FBB9D03A2671A9DA007BD777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBB9D03B2671A9DA007BD777 /* Build configuration list for PBXNativeTarget "Anime Dating AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB9D03C2671A9DA007BD777 /* Debug */,
+				FBB9D03D2671A9DA007BD777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBB9D03E2671A9DA007BD777 /* Build configuration list for PBXNativeTarget "Anime Dating AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB9D03F2671A9DA007BD777 /* Debug */,
+				FBB9D0402671A9DA007BD777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBB9D0062671A9D6007BD777 /* Project object */;
+}
