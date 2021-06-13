@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E48CC15B50A139805BF39386 /* Pods_Anime_Dating_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E1F4F9D6C04A37461AD47E /* Pods_Anime_Dating_App.framework */; };
 		FBB9D0122671A9D7007BD777 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9D0112671A9D7007BD777 /* AppDelegate.swift */; };
 		FBB9D0142671A9D7007BD777 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9D0132671A9D7007BD777 /* SceneDelegate.swift */; };
 		FBB9D0162671A9D7007BD777 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9D0152671A9D7007BD777 /* ViewController.swift */; };
@@ -15,6 +16,13 @@
 		FBB9D01E2671A9D9007BD777 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB9D01C2671A9D9007BD777 /* LaunchScreen.storyboard */; };
 		FBB9D0292671A9DA007BD777 /* Anime_Dating_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9D0282671A9DA007BD777 /* Anime_Dating_AppTests.swift */; };
 		FBB9D0342671A9DA007BD777 /* Anime_Dating_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9D0332671A9DA007BD777 /* Anime_Dating_AppUITests.swift */; };
+		FBB9D0472671AA16007BD777 /* Dating-Card-Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9D0462671AA16007BD777 /* Dating-Card-Controller.swift */; };
+		FBB9D04F2671AA2B007BD777 /* Dating-Card-Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9D04E2671AA2B007BD777 /* Dating-Card-Cell.swift */; };
+		FBB9D07A2671B9E1007BD777 /* Swift-Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9D0792671B9E1007BD777 /* Swift-Extensions.swift */; };
+		FBB9D0822671BA9A007BD777 /* Dating-Controller-Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9D0812671BA9A007BD777 /* Dating-Controller-Extensions.swift */; };
+		FBB9D08B2671C2F5007BD777 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9D08A2671C2F5007BD777 /* CustomTabBarController.swift */; };
+		FBD77EB82673F01400DFE304 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBD77EB72673F01300DFE304 /* GoogleService-Info.plist */; };
+		FBD77EBE2673F0B100DFE304 /* User-Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD77EBD2673F0B100DFE304 /* User-Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20E7747835E219E554FBCFCF /* Pods-Anime Dating App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anime Dating App.release.xcconfig"; path = "Target Support Files/Pods-Anime Dating App/Pods-Anime Dating App.release.xcconfig"; sourceTree = "<group>"; };
+		30E1F4F9D6C04A37461AD47E /* Pods_Anime_Dating_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Anime_Dating_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB9D00E2671A9D7007BD777 /* Anime Dating App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anime Dating App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB9D0112671A9D7007BD777 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBB9D0132671A9D7007BD777 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,14 @@
 		FBB9D02F2671A9DA007BD777 /* Anime Dating AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anime Dating AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB9D0332671A9DA007BD777 /* Anime_Dating_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime_Dating_AppUITests.swift; sourceTree = "<group>"; };
 		FBB9D0352671A9DA007BD777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB9D0462671AA16007BD777 /* Dating-Card-Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dating-Card-Controller.swift"; sourceTree = "<group>"; };
+		FBB9D04E2671AA2B007BD777 /* Dating-Card-Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dating-Card-Cell.swift"; sourceTree = "<group>"; };
+		FBB9D0792671B9E1007BD777 /* Swift-Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift-Extensions.swift"; sourceTree = "<group>"; };
+		FBB9D0812671BA9A007BD777 /* Dating-Controller-Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dating-Controller-Extensions.swift"; sourceTree = "<group>"; };
+		FBB9D08A2671C2F5007BD777 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		FBD77EB72673F01300DFE304 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FBD77EBD2673F0B100DFE304 /* User-Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User-Model.swift"; sourceTree = "<group>"; };
+		FC2B86523B322F185BD94441 /* Pods-Anime Dating App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anime Dating App.debug.xcconfig"; path = "Target Support Files/Pods-Anime Dating App/Pods-Anime Dating App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E48CC15B50A139805BF39386 /* Pods_Anime_Dating_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +95,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41650356847FBEE63C784966 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30E1F4F9D6C04A37461AD47E /* Pods_Anime_Dating_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D5C5D563CC026B76D18498B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC2B86523B322F185BD94441 /* Pods-Anime Dating App.debug.xcconfig */,
+				20E7747835E219E554FBCFCF /* Pods-Anime Dating App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB315CC62675479200930984 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBB9D0132671A9D7007BD777 /* SceneDelegate.swift */,
+				FBB9D0112671A9D7007BD777 /* AppDelegate.swift */,
+				FBB9D01A2671A9D9007BD777 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		FBB9D0052671A9D6007BD777 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +129,8 @@
 				FBB9D0272671A9DA007BD777 /* Anime Dating AppTests */,
 				FBB9D0322671A9DA007BD777 /* Anime Dating AppUITests */,
 				FBB9D00F2671A9D7007BD777 /* Products */,
+				6D5C5D563CC026B76D18498B /* Pods */,
+				41650356847FBEE63C784966 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +147,16 @@
 		FBB9D0102671A9D7007BD777 /* Anime Dating App */ = {
 			isa = PBXGroup;
 			children = (
-				FBB9D0112671A9D7007BD777 /* AppDelegate.swift */,
-				FBB9D0132671A9D7007BD777 /* SceneDelegate.swift */,
-				FBB9D0152671A9D7007BD777 /* ViewController.swift */,
+				FBB9D0892671C205007BD777 /* Navigation */,
+				FBD77EBC2673F0A200DFE304 /* Models */,
+				FBB9D0452671AA03007BD777 /* Views */,
+				FBB9D0442671A9EE007BD777 /* Controller */,
+				FBB9D0782671B9A4007BD777 /* Extensions */,
+				FB315CC62675479200930984 /* Resources */,
 				FBB9D0172671A9D7007BD777 /* Main.storyboard */,
-				FBB9D01A2671A9D9007BD777 /* Assets.xcassets */,
 				FBB9D01C2671A9D9007BD777 /* LaunchScreen.storyboard */,
 				FBB9D01F2671A9D9007BD777 /* Info.plist */,
+				FBD77EB72673F01300DFE304 /* GoogleService-Info.plist */,
 			);
 			path = "Anime Dating App";
 			sourceTree = "<group>";
@@ -128,6 +179,48 @@
 			path = "Anime Dating AppUITests";
 			sourceTree = "<group>";
 		};
+		FBB9D0442671A9EE007BD777 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FBB9D0152671A9D7007BD777 /* ViewController.swift */,
+				FBB9D0462671AA16007BD777 /* Dating-Card-Controller.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FBB9D0452671AA03007BD777 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FBB9D04E2671AA2B007BD777 /* Dating-Card-Cell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FBB9D0782671B9A4007BD777 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FBB9D0792671B9E1007BD777 /* Swift-Extensions.swift */,
+				FBB9D0812671BA9A007BD777 /* Dating-Controller-Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FBB9D0892671C205007BD777 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				FBB9D08A2671C2F5007BD777 /* CustomTabBarController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		FBD77EBC2673F0A200DFE304 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FBD77EBD2673F0B100DFE304 /* User-Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBB9D0382671A9DA007BD777 /* Build configuration list for PBXNativeTarget "Anime Dating App" */;
 			buildPhases = (
+				50BFE11FC6E03EACE0271ED9 /* [CP] Check Pods Manifest.lock */,
 				FBB9D00A2671A9D7007BD777 /* Sources */,
 				FBB9D00B2671A9D7007BD777 /* Frameworks */,
 				FBB9D00C2671A9D7007BD777 /* Resources */,
+				91A4B31769C599C0967F2E8D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBB9D01E2671A9D9007BD777 /* LaunchScreen.storyboard in Resources */,
+				FBD77EB82673F01400DFE304 /* GoogleService-Info.plist in Resources */,
 				FBB9D01B2671A9D9007BD777 /* Assets.xcassets in Resources */,
 				FBB9D0192671A9D7007BD777 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +349,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50BFE11FC6E03EACE0271ED9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Anime Dating App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91A4B31769C599C0967F2E8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Anime Dating App/Pods-Anime Dating App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Anime Dating App/Pods-Anime Dating App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Anime Dating App/Pods-Anime Dating App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FBB9D00A2671A9D7007BD777 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,7 +398,13 @@
 			files = (
 				FBB9D0162671A9D7007BD777 /* ViewController.swift in Sources */,
 				FBB9D0122671A9D7007BD777 /* AppDelegate.swift in Sources */,
+				FBB9D08B2671C2F5007BD777 /* CustomTabBarController.swift in Sources */,
+				FBD77EBE2673F0B100DFE304 /* User-Model.swift in Sources */,
+				FBB9D04F2671AA2B007BD777 /* Dating-Card-Cell.swift in Sources */,
+				FBB9D0472671AA16007BD777 /* Dating-Card-Controller.swift in Sources */,
 				FBB9D0142671A9D7007BD777 /* SceneDelegate.swift in Sources */,
+				FBB9D0822671BA9A007BD777 /* Dating-Controller-Extensions.swift in Sources */,
+				FBB9D07A2671B9E1007BD777 /* Swift-Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +577,7 @@
 		};
 		FBB9D0392671A9DA007BD777 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC2B86523B322F185BD94441 /* Pods-Anime Dating App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +597,7 @@
 		};
 		FBB9D03A2671A9DA007BD777 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E7747835E219E554FBCFCF /* Pods-Anime Dating App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
