@@ -12,38 +12,6 @@ let imageCache = NSCache<AnyObject, AnyObject>()
 
 extension UIImageView{
     
-    func loadImagesUsingCacheWithUrlString(urlString: String){
-        
-        if let cachedImage = imageCache.object(forKey: urlString as AnyObject) as?
-            
-            UIImage{
-            
-            self.image = cachedImage
-            
-            return
-            
-        }
-        
-        if let url = URL(string: urlString){
-            
-            URLSession.shared.dataTask(with: url , completionHandler: {( data, response, error) in
-                
-                if error != nil && data == nil{
-                    print(error)
-                }
-                
-                else{
-                    DispatchQueue.main.async {
-                        if let downloadedImage = UIImage(data: data!){
-                            imageCache.setObject(downloadedImage, forKey: (urlString as AnyObject))
-                            self.image = self.addContrast(originalImage: UIImage(data: data!)!)
-                        }
-                    }
-                }
-            }).resume()
-        }
-    }
-    
     func addContrast(originalImage: UIImage) -> UIImage {
         
         guard let inputImage = CIImage(image: originalImage),
